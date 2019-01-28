@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    overflow-x: hidden; /* oculta o scroll de baixo qnavega pelos lados */
+}
+
+nav {
+    width: 100vw;
+    height: 50px;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none; /*retira a decoração do texto ~retirou o link */
+    color: pink;
+    font-size: 20pt;
+    font-family: 'Indie Flower', cursive;
+}
+
+#imgInvisivel {
+    display: none;
+}
+
+div {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 10px 0;
+    /* se tiver 2: o primeiro é em cima e em baixo; 
+    se tiver 3: o primeiro é em cima e em baixo
+    se tiver 4: vai sentido horário, começando pelo top
+    */
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 100%;
+    border: 2px solid fuchsia;
+}
